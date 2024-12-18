@@ -50,40 +50,40 @@
     #spl-cont {
       flex-direction: column-reverse;
     }
-    .footer-container {
+    .footer-container{
       flex-direction: column;
       align-items: center;
       gap: 40px;
     }
-    .link-column {
+    .link-column{
       align-items: center;
     }
   }
 }
 
 @media screen and (max-width: 479px) {
-  h1 {
+  h1{
     font-size: 2rem;
   }
-  h2 {
+  h2{
     font-size: 1.5rem;
   }
-  h3 {
+  h3{
     font-size: 1.2rem;
   }
-  p {
+  p{
     font-size: 1rem;
   }
-  :root {
-    --padding-inline-section: 8px;
+  :root{
+        --padding-inline-section: 8px;
   }
-  .feature-card {
+  .feature-card{
     min-width: 100%;
     margin-block: 20px;
     /* flex-wrap: nowrap; */
     /* justify-content: center; */
   }
-  .example-card {
+  .example-card{
     width: 100%;
   }
 }
